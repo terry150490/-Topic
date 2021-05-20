@@ -2,7 +2,7 @@
 #include "SeeedGroveMP3.h" //Grove_MP3函式庫
 #include "KT403A_Player.h" //Grove_MP3音樂撥放晶片函式庫
 
-//Grove函式庫設定
+//Grove_MP3函式庫設定
 #ifdef __AVR__
   #include <avr/power.h>
 #endif
