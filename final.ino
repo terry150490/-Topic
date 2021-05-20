@@ -1,7 +1,8 @@
-#include <Adafruit_NeoPixel.h>
-#include "SeeedGroveMP3.h"
-#include "KT403A_Player.h"
+#include <Adafruit_NeoPixel.h> //Neopixel函式庫
+#include "SeeedGroveMP3.h" //Grove_MP3函式庫
+#include "KT403A_Player.h" //Grove_MP3音樂撥放晶片函式庫
 
+//Grove函式庫設定
 #ifdef __AVR__
   #include <avr/power.h>
 #endif
@@ -36,6 +37,7 @@
 const int scanInPin[]={3,4};
 const int scanOutPin[]={8,9,10,11};
 
+//LED顏色設定
 const int colors[2][3]={{255,0,0},{0,0,255}};
 
 const int layout[7][6]={
